@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>UNIDAS AUTOGESTÃO DE SAÚDE</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="img/Logo1.png" alt="" />
+          </a>
+        </div>
+
+        <ul class="navbar-nav-left">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="https://unidas.org.br/clube-de-servicos-home/">Serviços</a>
+          </li>
+          <li>
+            <a href="https://unidas.org.br/a-unidas/">Sobre</a>
+          </li>
+          <li>
+          <a href="https://guia-wcag.com/">WCAG</a>
+        </li>
+      </ul>
+
+      <div class="font-size-controls">
+        <button class="font-size-btn" onclick="increaseFontSize()">Aumentar Fonte</button>
+        <button class="font-size-btn" onclick="decreaseFontSize()">Diminuir Fonte</button>
+    </div>
+
+        <ul class="navbar-nav-right">
+          <li>
+            <a href="https://www.google.com/maps/place/Unidas+Uni%C3%A3o+Nacional+Institui%C3%A7%C3%B5es+Autogest%C3%A3o+em+Sa%C3%BAde/@-23.5661458,-46.652538,15z/data=!4m2!3m1!1s0x0:0x560a26d397ffcea3?sa=X&ved=2ahUKEwiQ-Y-PurCBAxVZL7kGHaunCH0Q_BJ6BAhSEAA&ved=2ahUKEwiQ-Y-PurCBAxVZL7kGHaunCH0Q_BJ6BAhbEAg">
+              <img src="img/marker.svg" alt="" />
+              <span>Nossa Localização</span>
+            </a>
+
+           
+
+        <button type="button" class="CENTRAL" id="menu-btn">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu hidden" id="menu">
+          <a href="#">
+            <img src="img/marker.svg" alt="" />
+            <span>Find a store</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-slider">
+      <button id="prev-button"><img src="img/seta.png" alt="prev-button"></button>
+      <div class="container-images">
+        <img src="img/p1.png  " alt="p3.png" class="slider on">
+        <img src="img/p2.jpeg" alt="p4.png" class="slider">
+      </div>
+      <button id="next-button"><img src="img/seta.png" alt="next-button"></button>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <section class="">
+      <center>
+      <h2 class="text-xl">QUEM USA APROVA!!!</h2>
+      <img src="img/Empresas.jpg" alt="" />
+        <p>Empresas parceiras que utilizam o nosso serviço</p>
+      </center>
+      <div class="box-text">
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="">
+      <center>
+      <h2 class="text-xl">OS MELHORES MÉDICOS</h2>
+      <img src="g1.gif" alt="" />
+        <p>Médico conversando com paciente</p>
+      </center>
+      <div class="box-text">
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="videomp4">
+      <div class="video-container">
+        <center>
+          <video src="video.mp4"
+          controls
+          width="1000"
+          autoplay muted loop>
+          <track kind="subtitles" label="Legendas" srclang="pt-bt" src="leganda.vtt" default > 
+          </video>
+        </center>
+      </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="box box-d bg-primary grid-col-2">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.255888962476!2d-46.652538!3d-23.5661458!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7a13e99f1%3A0x560a26d397ffcea3!2sUnidas%20Uni%C3%A3o%20Nacional%20Institui%C3%A7%C3%B5es%20Autogest%C3%A3o%20em%20Sa%C3%BAde!5e0!3m2!1spt-BR!2sbr!4v1694909800278!5m2!1spt-BR!2sbr" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="box-text">
+        <h2 class="text-xl">Nossa localização</h2>
+        <p class="text-md">
+          A melhor Clínica da região.
+        </p>
+      </div>
+    </section>
+    <center>
+      <audio src="Audio.mp3"
+      controls
+      >
+      </audio>
+  </center>
+        </div>
+      </div>
+      <div>
+    <div class="divider"></div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social">
+          <a href="https://facebook.com">
+            <img src="./img/social-facebook.svg" alt="" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="./img/social-instagram.svg" alt="" />
+          </a>
+          <a href="https://youtube.com">
+            <img src="./img/social-youtube.svg" alt="" />
+          </a>
+          <a href="https://twitter.com">
+            <img src="./img/twitter.png" alt="" />
+          </a>
+        </div>
+        <CENTER>
+        <p>© 2023 UNIDAS AUTOGESTÃO DE SAÚDE. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </CENTER>
+    <script src="script.js"></script>
+  </body>
+</html>
